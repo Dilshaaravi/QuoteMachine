@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Random Quote Machine</title>
+		<script src="bgcolor.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body style="background-color: #e74c3c; color: #e74c3c">
+		<div class="mx-auto">
+		<div class="card">
+  		<div class="card-body">
+    		<p class="card-text">
+    			<div id="quotes-text">
+    				<i class="fa fa-quote-left" id="quotation" style="color: #e74c3c"></i>
+    				<span id="quote">The Only Limit To Our Realization Of Tomorrow Will Be Our Doubts Of Today
+    				</span>
+    			</div>
+    			<div id="quote-author" align="right">
+    				- 
+						<span id="author">Franklin D. Roosevelt</span>
+					</div>
+    		</p>
+    		<div id="buttons">
+    			<a class="btn btn-primary" id="twitter" style="background-color: #e74c3c;">
+    				<i class="fa fa-twitter"></i>
+    			</a>
+    			<a class="btn btn-primary" id="tumblr" style="background-color: #e74c3c;">
+    				<i class="fa fa-tumblr"></i>
+    			</a>
+    			<a href="#" class="btn btn-primary" id="btn" style="background-color: #e74c3c;" onclick="change_color()">New quote</a>
+    		</div>
+  		</div>
+		</div>
+	</div>
+	</body>
+</html>
